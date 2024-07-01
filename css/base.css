@@ -3,6 +3,7 @@ h1
 	font-family: serif;
 	font-size: 44px;
 	text-align: center;
+	padding: 36px;
 }
 
 h2
@@ -11,6 +12,11 @@ h2
 	font-size: 28px;
 	font-weight: normal;
 	text-align: center;
+}
+
+.commander-damage h2, .commander-tax h2
+{
+	font-size: 24px !important;
 }
 
 p.button
@@ -28,9 +34,28 @@ p.button
 	text-align: center;
 }
 
+.commander-damage .tracker, .commander-tax .tracker
+{
+	font-size: 128px !important;
+}
+
+div.parent
+{
+	text-align: center;
+}
+
 .inline-block-child
 {
 	display: inline-block;
 	align-items: center;
-	width: 30%;
+	vertical-align: middle;
+	width: 21%;
+	border: 2px solid;
+	border-color: currentColor;
+	border-radius: 10px;
+}
+
+.life
+{
+	width: 25% !important;
 }
