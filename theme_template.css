@@ -1,0 +1,12 @@
+/* Replace the color codes in the code blocks
+with colors of your choice. */
+
+body
+{
+	background-color: #000000;
+}
+
+.colorableText
+{
+	color: #ffffff;
+}

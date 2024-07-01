@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="./css/base.css"></link>
+		<script src="./js/trackers.js"></script>
+		<script src="./js/themes.js"></script>
+	</head>
+
+	<body>
+		<h1 class="colorableText">MAGIC: THE GATHERING TRACKERS</h1>
+
+		<div class="parent">
+			<!-- LIFE -->
+			<div class="child inline-block-child">
+				<h2 class="colorableText">LIFE</h2>
+				<p class="button colorableText" onclick="lifeUp()"> + </p>
+				<div class="tracker colorableText" id="lifeDisplay">
+					<script onload="displayLife()"></script>
+				</div>
+				<p class="button colorableText" onclick="lifeDown()"> - </p>
+			</div> <!-- end of child -->
+
+			<!-- COMMANDER DAMAGE-->
+			<div class="child inline-block-child">
+				<h2 class="colorableText">COMMANDER DAMAGE</h2>
+				<p class="button colorableText" onclick="commanderDmgUp()"> + </p>
+				<div class="tracker colorableText" id="commDmgDisplay">
+					<script onload="displayCommanderDmg()"></script>
+				</div>
+				<p class="button colorableText" onclick="commanderDmgDown()"> - </p>
+			</div> <!-- end of child -->
+
+			<!-- COMMANDER TAX -->
+			<div class="child inline-block-child">
+				<h2 class="colorableText">COMMANDER TAX</h2>
+				<p class="button colorableText" onclick="commanderTaxUp()"> + </p>
+				<div class="tracker colorableText" id="commTaxDisplay">
+					<script onload="displayCommanderTax()"></script>
+				</div>
+				<p class="button colorableText" onclick="commanderTaxDown()"> - </p>
+			</div> <!-- end of child -->
+		</div> <!-- end of parent -->
+	</body>
+</html>

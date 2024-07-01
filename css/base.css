@@ -1,0 +1,36 @@
+h1
+{
+	font-family: serif;
+	font-size: 44px;
+	text-align: center;
+}
+
+h2
+{
+	font-family: serif;
+	font-size: 28px;
+	font-weight: normal;
+	text-align: center;
+}
+
+p.button
+{
+	font-family: serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.tracker
+{
+	font-family: serif;
+	font-size: 144px;
+	text-align: center;
+}
+
+.inline-block-child
+{
+	display: inline-block;
+	align-items: center;
+	width: 30%;
+}
