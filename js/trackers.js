@@ -28,10 +28,6 @@ function lifeDown() {
     life--;
 }
 
-function lifeSet(i) {
-    life = i;
-}
-
 function commanderDmgUp() {
     commDmg++;
 }
@@ -40,18 +36,10 @@ function commanderDmgDown() {
     commDmg--;
 }
 
-function commanderDmgSet(i) {
-    commDmg = i;
-}
-
 function commanderTaxUp() {
     commTax++;
 }
 
 function commanderTaxDown() {
     commTax--;
-}
-
-function commanderTaxSet(i) {
-    commTax = i;
 }

@@ -9,14 +9,14 @@ h1
 h2
 {
 	font-family: serif;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: normal;
 	text-align: center;
 }
 
 .commander-damage h2, .commander-tax h2
 {
-	font-size: 24px !important;
+	font-size: 22px !important;
 }
 
 p.button
@@ -25,6 +25,24 @@ p.button
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
+}
+
+p.options
+{
+	font-family: serif;
+	font-size: 24px;
+}
+
+.left-align
+{
+	text-align: left;
+	padding-left: 16px;
+}
+
+.right-align
+{
+	text-align: right;
+	padding-right: 16px;
 }
 
 .tracker
@@ -39,9 +57,22 @@ p.button
 	font-size: 128px !important;
 }
 
-div.parent
+div.inline-block-parent
 {
 	text-align: center;
+}
+
+div.options-parent
+{
+	align-self: center;
+	align-items: center;
+	width: 25%;
+	margin: auto;
+	border: 2px solid;
+	border-color: currentColor;
+	border-radius: 10px;
+	position: relative;
+	top: 40px;
 }
 
 .inline-block-child
