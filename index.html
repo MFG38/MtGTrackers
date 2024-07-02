@@ -14,6 +14,7 @@
 		<h1 class="colorable-text">MAGIC: THE GATHERING TRACKERS</h1>
 
 		<div class="parent inline-block-parent">
+
 			<!-- COMMANDER DAMAGE-->
 
 			<div class="child inline-block-child colorable-bg commander-damage">
@@ -46,11 +47,14 @@
 				</div>
 				<p class="button colorable-text" onclick="commanderTaxDown()"> - </p>
 			</div> <!-- end of child -->
+
 		</div> <!-- end of parent -->
 
 		<div class="options-parent">
 			<p class="options left-align colorable-text">THEME:</p>
-			<p class="options right-align colorable-text">DEFAULT</p>
+			<p class="options right-align colorable-text" id="selectedThemeDisplay">
+				<script onload="showSelectedThemeName()"></script>
+			</p>
 		</div>
 	</body>
 </html>
