@@ -1,9 +1,32 @@
+:root
+{
+	--bgColor: #080808;
+	--textColor: #f7f5ff;
+	--divColor: #171717;
+}
+
+body
+{
+	background-color: var(--bgColor);
+}
+
+.colorable-text
+{
+	color: var(--textColor);
+}
+
+.colorable-bg
+{
+	background-color: var(--divColor);
+}
+
 h1
 {
 	font-family: serif;
 	font-size: 44px;
 	text-align: center;
 	padding: 36px;
+	color: var(--textColor);
 }
 
 h2
@@ -12,6 +35,7 @@ h2
 	font-size: 30px;
 	font-weight: normal;
 	text-align: center;
+	color: var(--textColor);
 }
 
 .commander-damage h2, .commander-tax h2
@@ -25,12 +49,14 @@ p.button
 	font-size: 40px;
 	font-weight: bold;
 	text-align: center;
+	color: var(--textColor);
 }
 
 p.options
 {
 	font-family: serif;
 	font-size: 24px;
+	color: var(--textColor);
 }
 
 .left-align
@@ -50,6 +76,7 @@ p.options
 	font-family: serif;
 	font-size: 144px;
 	text-align: center;
+	color: var(--textColor);
 }
 
 .commander-damage .tracker, .commander-tax .tracker
@@ -82,7 +109,7 @@ div.options-parent
 	vertical-align: middle;
 	width: 21%;
 	border: 2px solid;
-	border-color: currentColor;
+	border-color: var(--textColor);
 	border-radius: 10px;
 }
 

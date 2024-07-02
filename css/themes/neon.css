@@ -1,0 +1,6 @@
+[data-selected-theme="neon"]
+{
+	--bgColor: linear-gradient(#dd58d6, #9336b4);
+	--textColor: #ffe79b;
+	--divColor: linear-gradient(#40128bff, #40128b00);
+}

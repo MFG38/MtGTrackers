@@ -1,2 +1,2 @@
-export let autoLoseOn21CommDmg = true;
-export let autoApplyCommDmg = false;
+let autoLoseOn21CommDmg = true;
+let autoApplyCommDmg = false;

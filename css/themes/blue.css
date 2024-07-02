@@ -1,9 +1,6 @@
-body
+[data-selected-theme="blue"]
 {
-	background-color: #b3ceea;
-}
-
-.colorableText
-{
-	color: #0e68ab;
+	--bgColor: #b3ceea;
+	--textColor: #0e68ab;
+	--divColor: #00000000;
 }

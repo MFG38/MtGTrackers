@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html data-selected-theme="default">
 	<head>
 		<title>MtG Trackers</title>
 		<link rel="stylesheet" href="./css/base.css"></link>
@@ -10,42 +10,45 @@
 	</head>
 
 	<body>
-		<h1 class="colorableText">MAGIC: THE GATHERING TRACKERS</h1>
+		<h1 class="colorable-text">MAGIC: THE GATHERING TRACKERS</h1>
 
 		<div class="parent inline-block-parent">
 			<!-- COMMANDER DAMAGE-->
-			<div class="child inline-block-child commander-damage">
-				<h2 class="colorableText">COMMANDER DAMAGE</h2>
-				<p class="button colorableText" onclick="commanderDmgUp()"> + </p>
-				<div class="tracker colorableText" id="commDmgDisplay">
+
+			<div class="child inline-block-child colorable-bg commander-damage">
+				<h2 class="colorable-text">COMMANDER DAMAGE</h2>
+				<p class="button colorable-text" onclick="commanderDmgUp()"> + </p>
+				<div class="tracker colorable-text" id="commDmgDisplay">
 					<script onload="displayCommanderDmg()"></script>
 				</div>
-				<p class="button colorableText" onclick="commanderDmgDown()"> - </p>
+				<p class="button colorable-text" onclick="commanderDmgDown()"> - </p>
 			</div> <!-- end of child -->
 
 			<!-- LIFE -->
-			<div class="child inline-block-child life">
-				<h2 class="colorableText">LIFE</h2>
-				<p class="button colorableText" onclick="lifeUp()"> + </p>
-				<div class="tracker colorableText" id="lifeDisplay">
+
+			<div class="child inline-block-child colorable-bg life">
+				<h2 class="colorable-text">LIFE</h2>
+				<p class="button colorable-text" onclick="lifeUp()"> + </p>
+				<div class="tracker colorable-text" id="lifeDisplay">
 					<script onload="displayLife()"></script>
 				</div>
-				<p class="button colorableText" onclick="lifeDown()"> - </p>
+				<p class="button colorable-text" onclick="lifeDown()"> - </p>
 			</div> <!-- end of child -->
 
 			<!-- COMMANDER TAX -->
-			<div class="child inline-block-child commander-tax">
-				<h2 class="colorableText">COMMANDER TAX</h2>
-				<p class="button colorableText" onclick="commanderTaxUp()"> + </p>
-				<div class="tracker colorableText" id="commTaxDisplay">
+
+			<div class="child inline-block-child colorable-bg commander-tax">
+				<h2 class="colorable-text">COMMANDER TAX</h2>
+				<p class="button colorable-text" onclick="commanderTaxUp()"> + </p>
+				<div class="tracker colorable-text" id="commTaxDisplay">
 					<script onload="displayCommanderTax()"></script>
 				</div>
-				<p class="button colorableText" onclick="commanderTaxDown()"> - </p>
+				<p class="button colorable-text" onclick="commanderTaxDown()"> - </p>
 			</div> <!-- end of child -->
 		</div> <!-- end of parent -->
 
 		<div class="options-parent">
-			<p class="options left-align colorableText">THEME:</p>
+			<p class="options left-align colorable-text">THEME:</p>
 		</div>
 	</body>
 </html>

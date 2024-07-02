@@ -1,5 +1,7 @@
 let themes = [];
 
 function importThemes() {
-    // TODO
+    for(const f in '../css/themes/') {
+        themes.push(f);
+    }
 }
