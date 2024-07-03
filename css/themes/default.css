@@ -1,6 +1,6 @@
 [data-selected-theme="default"]
 {
-	--bgColor: #080808;
-	--textColor: #f7f5ff;
-	--divColor: #171717;
+	--bgColor: #080808 !important;
+	--textColor: #f7f5ff !important;
+	--divColor: #171717 !important;
 }

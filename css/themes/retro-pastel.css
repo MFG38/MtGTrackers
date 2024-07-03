@@ -1,6 +1,6 @@
 [data-selected-theme="retro-pastel"]
 {
-	--bgColor: #5a639c;
-	--textColor: #e2bbe9;
-	--divColor: #7776b3;
+	--bgColor: #5a639c !important;
+	--textColor: #e2bbe9 !important;
+	--divColor: #7776b3 !important;
 }

@@ -4,7 +4,7 @@ of your choice. */
 
 [data-selected-theme="theme-name"]
 {
-	--bgColor: #000000;
-	--textColor: #ffffff;
-	--divColor: #00000000;
+	--bgColor: #000000 !important;
+	--textColor: #ffffff !important;
+	--divColor: #00000000 !important;
 }

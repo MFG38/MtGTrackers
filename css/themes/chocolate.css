@@ -1,6 +1,6 @@
 [data-selected-theme="chocolate"]
 {
-	--bgColor: #3e3232;
-	--textColor: #a87c7c;
-	--divColor: #503c3c;
+	--bgColor: #3e3232 !important;
+	--textColor: #a87c7c !important;
+	--divColor: #503c3c !important;
 }

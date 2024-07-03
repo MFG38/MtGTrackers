@@ -1,6 +1,6 @@
 [data-selected-theme="default-inv"]
 {
-	--bgColor: #f7f5ff;
-	--textColor: #080808;
-	--divColor: #171717;
+	--bgColor: #f7f5ff !important;
+	--textColor: #080808 !important;
+	--divColor: #d9d9d9 !important;
 }

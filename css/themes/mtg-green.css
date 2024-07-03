@@ -1,6 +1,6 @@
 [data-selected-theme="mtg-green"]
 {
-	--bgColor: #c4d3ca;
-	--textColor: #00733e;
-	--divColor: #00000000;
+	--bgColor: #c4d3ca !important;
+	--textColor: #00733e !important;
+	--divColor: #00000000 !important;
 }
