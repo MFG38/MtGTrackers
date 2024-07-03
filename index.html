@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="./css/base.css">
 		<script src="./js/trackers.js"></script>
-		<script src="./js/themes.js"></script>
+		<!-- <script src="./js/themes.js"></script> -->
 	</head>
 
 	<body>
@@ -49,10 +49,21 @@
 
 		</div> <!-- end of parent -->
 
+		<!-- OPTIONS -->
+
 		<div class="options-parent">
+			<p class="options left-align colorable-text">MODE:</p>
+			<p class="options right-align colorable-text" id="selectedGameMode">
+				<script onload="showSelectedGameMode()" onclick="toggleGameMode()"></script>
+				<!-- PLACEHOLDER -->
+			</p>
+
+			<br>
+
 			<p class="options left-align colorable-text">THEME:</p>
 			<p class="options right-align colorable-text" id="selectedThemeDisplay">
 				<script onload="showSelectedThemeName()"></script>
+				<!-- PLACEHOLDER -->
 			</p>
 		</div>
 	</body>

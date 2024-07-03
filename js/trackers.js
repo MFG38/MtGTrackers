@@ -1,8 +1,7 @@
-//import "./options";
-
 let life = 40;
 let commDmg = 0;
 let commTax = 0;
+let gameMode = "commander";
 
 function displayLife() {
     document.getElementById("lifeDisplay").innerText = life;
@@ -42,4 +41,19 @@ function commanderTaxUp() {
 
 function commanderTaxDown() {
     commTax--;
+}
+
+function showSelectedGameMode () {
+    document.getElementById("selectedGameMode").innerText = String(gameMode).toUpperCase();
+}
+
+function toggleGameMode() {
+    if(gameMode === "commander") {
+        gameMode = "standard";
+        life = 20;
+    }
+    else {
+        gameMode = "commander";
+        life = 40;
+    }
 }

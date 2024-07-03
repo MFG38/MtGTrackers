@@ -47,7 +47,7 @@ themeButtons.forEach((themepicker) => {
 });
 
 function showSelectedThemeName() {
-    document.getElementById("selectedThemeDisplay").innerText = selectedTheme.toUpperCase();
+    document.getElementById("selectedThemeDisplay").innerText = String(selectedTheme).toUpperCase();
 }
 
 function showThemeSelectorMenu() {
