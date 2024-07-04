@@ -95,20 +95,6 @@ div.inline-block-parent
 	text-align: center;
 }
 
-div.options-parent
-{
-	align-self: center;
-	align-items: center;
-	width: 25%;
-	margin: auto;
-	border: 2px solid;
-	border-color: var(--textColor);
-	border-radius: 10px;
-	position: relative;
-	top: 40px;
-	background-color: var(--divColor);
-}
-
 .inline-block-child
 {
 	display: inline-block;
