@@ -1,6 +1,16 @@
-let life = 40;
+let life = 0;
 let commDmg = 0;
 let commTax = 0;
+
+function initLife(amount) {
+    life = amount;
+}
+
+/* onload = () => {
+    console.log('before:', life);
+    initLife(life);
+    console.log('after:', life);
+}; */
 
 function displayLife() {
     document.getElementById("lifeDisplay").innerText = life;

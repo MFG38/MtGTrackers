@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html data-selected-theme="default" data-initial-life="20">
+	<head>
+		<title>MtG Trackers</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/base.css">
+		<script src="./js/trackers.js"></script>
+	</head>
+
+	<body>
+		<h1 class="colorable-text">MAGIC: THE GATHERING TRACKERS (NON-COMMANDER)</h1>
+
+		<div class="parent inline-block-parent">
+			<!-- LIFE -->
+
+			<div class="child inline-block-child colorable-bg life">
+				<h2 class="colorable-text">LIFE</h2>
+				<p class="button colorable-text" onclick="lifeUp()"> + </p>
+				<div class="tracker colorable-text" id="lifeDisplay">
+					<script>
+						document.addEventListener("DOMContentLoaded", function() {
+        				    initLife(20);
+        				});
+					</script>
+					<script onload="displayLife()"></script>
+				</div>
+				<p class="button colorable-text" onclick="lifeDown()"> - </p>
+			</div> <!-- end of child -->
+
+		</div> <!-- end of parent -->
+	</body>
+</html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html data-selected-theme="default">
+<html data-selected-theme="default" data-initial-life="40">
 	<head>
 		<title>MtG Trackers</title>
 		<meta charset="utf-8">
@@ -9,7 +9,7 @@
 	</head>
 
 	<body>
-		<h1 class="colorable-text">MAGIC: THE GATHERING TRACKERS</h1>
+		<h1 class="colorable-text">MAGIC: THE GATHERING TRACKERS (COMMANDER)</h1>
 
 		<div class="parent inline-block-parent">
 
@@ -30,6 +30,11 @@
 				<h2 class="colorable-text">LIFE</h2>
 				<p class="button colorable-text" onclick="lifeUp()"> + </p>
 				<div class="tracker colorable-text" id="lifeDisplay">
+					<script>
+						document.addEventListener("DOMContentLoaded", function() {
+        				    initLife(40);
+        				});
+					</script>
 					<script onload="displayLife()"></script>
 				</div>
 				<p class="button colorable-text" onclick="lifeDown()"> - </p>
