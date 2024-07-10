@@ -6,7 +6,7 @@ Web-based, single-page sets of trackers for **Magic: The Gathering**. Comes in t
 
 ## Installation and usage
 
-Download or clone the repository, then just open `index.html` in your web browser.
+Download or clone the repository, then just open one of the HTML files in your web browser.
 
 ## Themes
 
